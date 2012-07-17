@@ -420,15 +420,15 @@ h3 {
 }
 
 #meetings section {
-  background: #eee;
+  background: #ffe6ee;
   margin-top: .5em;
-  padding: .5em;
+  padding: .5em .75em;
   -moz-border-radius: .75em;
   border-radius: .75em;
 }
 
 #meetings section:nth-child(2n) {
-  background: #ddd;
+  background: #eae5e6;
 }
 
 #meetings section h3 + ul, #meetings section .where + ul {
