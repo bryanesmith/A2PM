@@ -18,4 +18,5 @@ A single web page to represent A2PM.
 [ ] "Return to Top" links
 [ ] Smooth transition when click skip links
 [ ] Add some graphics/icons (Perl 5, what else?) 
+[ ] Make better redirect page for annarbor.pm.org (something simple and colorful stating being redirected to a2perl.org, with three-second redirect)
 
