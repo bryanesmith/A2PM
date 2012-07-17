@@ -311,6 +311,14 @@ html, body, #wrapper-1, #wrapper-2 {
 }
 
 #wrapper-2 {
+  background-image:url('/img/raptor.png');
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-position: left top;
+  _background-image: none; /* IE 6 and below */
+}
+
+#wrapper-3 {
   background-image:url('/img/cityscape.png');
   _background-image: none; /* IE 6 and below */
   background-repeat:repeat-x;
