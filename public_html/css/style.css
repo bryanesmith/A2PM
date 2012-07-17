@@ -293,7 +293,7 @@ td { vertical-align: top; }
 }
 
 html {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 html, body, #wrapper-1, #wrapper-2 {
@@ -327,7 +327,7 @@ html, body, #wrapper-1, #wrapper-2 {
 }
 
 div[role="main"] {
-  width: 48em;
+  width: 42em;
   min-height: 100%;
   border: 2px dashed #000;
   border-bottom: 0;
@@ -411,6 +411,7 @@ section + section {
 h3 {
   font-size: .9em;
   margin-top: .1em;
+  min-width: 15em;
 }
 
 #meetings section {
