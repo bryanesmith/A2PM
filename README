@@ -1,0 +1,18 @@
+=== ABOUT ===
+A single web page to represent A2PM.
+
+=== GOALS ===
+* Really easy to maintain
+* Easy to find information
+* No fluff
+
+=== TO DO ===
+[x] Add old meetings (with slides)
+[ ] Embed Google calendar
+[ ] Clean up HTML (cruft)
+[ ] Clean up CSS (cruft)
+[ ] Automate deployment of site when committed to GitHub
+[ ] Adaptive design so mobile/other device friendly
+[ ] Work on better design
+[ ] Typography
+
