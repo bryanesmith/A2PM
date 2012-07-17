@@ -347,7 +347,7 @@ h1 {
 
 nav {
   float: right;
-  margin-top: 1.5em;
+  margin-top: 1.65em;
 }
 
 nav ul li {
@@ -363,7 +363,6 @@ nav ul li a {
   text-align: center;
   -moz-border-radius: .35em;
   border-radius: .35em;
-  text-transform: uppercase;
   font-size: .75em;
   line-height: .75em;
 }
@@ -371,6 +370,7 @@ nav ul li a {
 nav ul li a, nav ul li a:visited {
   border: 1px solid #222;
   background: #fff;
+  color: #222;
 }
 
 nav ul li a:hover {
