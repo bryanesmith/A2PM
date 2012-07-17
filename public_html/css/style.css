@@ -371,26 +371,28 @@ nav ul li a {
 }
 
 nav ul li a, nav ul li a:visited {
-  background: #ddd;
+  border: 1px solid #222;
+  background: #fff;
 }
 
 nav ul li a:hover {
   text-decoration: none;
+  color: #fff;
 }
 
 nav ul li:nth-child(1) a:hover {
   background: #ff020b;
-  color: #fff;
+  border-color: #ff020b;
 }
 
 nav ul li:nth-child(2) a:hover {
   background: #dd2eff;
-  color: #fff;
+  border-color: #dd2eff;
 }
 
 nav ul li:nth-child(3) a:hover {
   background: #4f50ff;
-  color: #fff;
+  border-color: #4f50ff;
 }
 
 h2 {
