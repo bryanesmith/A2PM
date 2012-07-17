@@ -326,10 +326,13 @@ html, body, #wrapper-1, #wrapper-2 {
   background-position: 90% bottom;
 }
 
+div[role="main"], h2 {
+  border: 2px solid #000;
+}
+
 div[role="main"] {
   width: 42em;
   min-height: 100%;
-  border: 2px dashed #000;
   border-bottom: 0;
   border-top: 0;
   margin-left: auto;
@@ -404,35 +407,40 @@ h2 {
   top: 2.5em;
   background: #fff;
   width: 10em;
-  border: 2px dashed #000;
   border-right: 0;
   padding: .5em 1em;
+  -moz-border-radius-bottomleft: .35em;
+  border-bottom-left-radius: .35em;
+  -moz-border-radius-topleft: .35em;
+  border-top-left-radius: .35em;
 }
 
 section + section {
-  margin-top: 2.5em;
+  margin-top: 1em;
 }
 
 h3 {
-  font-size: .9em;
-  margin-top: .1em;
   min-width: 15em;
 }
 
-#meetings section {
-  background: #ffe6ee;
-  margin-top: .5em;
-  padding: .5em .75em;
-  -moz-border-radius: .75em;
-  border-radius: .75em;
+h3, #meetings .where {
+  font-size: 1em;
+  margin-top: .1em;
 }
 
-#meetings section:nth-child(2n) {
-  background: #eae5e6;
+#meetings section {
+  margin-top: .5em;
+  padding: .5em .75em;
+  border-top: 1px dotted #ccc;
+}
+
+#meetings section:last-child {
+  border-top: 1px dotted #ccc;
 }
 
 #meetings section h3 + ul, #meetings section .where + ul {
-  margin-top: .5em;
+  margin-top: .75em;
+  margin-bottom: .15em;
 }
 
 #meetings h3 {
@@ -441,7 +449,6 @@ h3 {
 
 #meetings .where {
   float: right;
-  font-size: .9em;
 }
 
 #meetings .where:before {
