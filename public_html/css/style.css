@@ -347,11 +347,12 @@ h1 {
   padding-top: .75em;
   float: left;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
 }
 
 nav {
   float: right;
-  margin-top: 1.7em;
+  margin-top: 1.45em;
 }
 
 nav ul li {
