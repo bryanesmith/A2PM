@@ -346,6 +346,7 @@ div[role="main"] {
 h1 {
   padding-top: .75em;
   float: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -421,6 +422,7 @@ section + section {
 
 h3 {
   min-width: 15em;
+  font-family: 'Karla', sans-serif;
 }
 
 h3, #meetings .where {
@@ -452,8 +454,7 @@ h3, #meetings .where {
 }
 
 #meetings .where:before {
-  content: 'Where: ';
-  font-weight: bold;
+  content: '@';
 }
 
 #meetings ul {
