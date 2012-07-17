@@ -343,7 +343,6 @@ div[role="main"] {
 h1 {
   padding-top: .75em;
   float: left;
-  margin-bottom: .5em;
 }
 
 nav {
@@ -396,14 +395,19 @@ nav ul li:nth-child(3) a:hover {
 }
 
 h2 {
-  border-bottom: 1px solid #444;
-  padding-bottom: 0;
+  margin: 0;
   line-height: 1.2em;
   text-transform: uppercase;
   font-size: .9em;
-  margin-top: 1.5em;
   clear: both;
-  margin-bottom: .5em;
+  position: relative;
+  left: -13.75em;
+  top: 2.5em;
+  background: #fff;
+  width: 10em;
+  border: 2px dashed #000;
+  border-right: 0;
+  padding: .5em 1em;
 }
 
 section + section {
