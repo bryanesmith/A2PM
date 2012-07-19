@@ -296,7 +296,11 @@ html {
   font-size: 17px;
 }
 
-html, body, #wrapper-1, #wrapper-2 {
+html, body {
+  height: 100%;
+}
+
+html, body, #wrapper-1, #wrapper-2, #wrapper-3, div[role="main"] {
   min-height: 100%;
   padding: 0;
 }
@@ -331,8 +335,7 @@ div[role="main"], h2 {
 }
 
 div[role="main"] {
-  width: 42em;
-  min-height: 100%;
+  width: 41em;
   border-bottom: 0;
   border-top: 0;
   margin-left: auto;
@@ -385,17 +388,14 @@ nav ul li a:hover {
 
 nav ul li:nth-child(1) a:hover {
   background: #ff020b;
-  border-color: #ff020b;
 }
 
 nav ul li:nth-child(2) a:hover {
   background: #dd2eff;
-  border-color: #dd2eff;
 }
 
 nav ul li:nth-child(3) a:hover {
   background: #4f50ff;
-  border-color: #4f50ff;
 }
 
 h2 {
@@ -405,7 +405,7 @@ h2 {
   font-size: .9em;
   clear: both;
   position: relative;
-  left: -9.65em;
+  left: -9.5em;
   top: 2.5em;
   background: #fff;
   width: 6em;
@@ -424,11 +424,13 @@ section + section {
 h3 {
   min-width: 15em;
   font-family: 'Karla', sans-serif;
+  font-size: 1.1em;
+  margin-top: .1em;
 }
 
-h3, #meetings .where {
-  font-size: 1em;
-  margin-top: .1em;
+#meetings .where {
+  font-family: 1em;
+  margin-top: .25em;
 }
 
 #meetings section {
@@ -442,7 +444,7 @@ h3, #meetings .where {
 }
 
 #meetings section h3 + ul, #meetings section .where + ul {
-  margin-top: .75em;
+  margin-top: 1em;
   margin-bottom: .15em;
 }
 
